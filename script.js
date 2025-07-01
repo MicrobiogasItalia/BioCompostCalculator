@@ -65,14 +65,17 @@ async function calcola() {
                         right: 20px;
                         background-color: #4caf50;
                         color: white;
-                        padding: 20px 30px;
-                        border-radius: 8px;
+                        padding: 25px 40px;
+                        border-radius: 10px;
                         text-decoration: none;
                         font-weight: bold;
-                        font-size: 20px;
+                        font-size: 24px;
+                        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+                        transition: background-color 0.3s, transform 0.2s;
                     }
                     .btn-email:hover {
                         background-color: #45a049;
+                        transform: scale(1.05);
                     }
                 </style>
             </head>
